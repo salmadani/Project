@@ -1,19 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>The Relationship between Pollution and Economic Activity</title>
+    <title>The Relationship between Pollution and Economic Activities</title>
 </head>
 <body>
     <h1>The Relationship between Pollution and Economic Activities</h1>
     <h2>Sara Almadani</h2>
     <p>
-        In this study, I aim to replicate and extend the findings of Vandenbroucke and Zhu (2017) from their work 
-        <strong>Measures of Pollution</strong>. Their research explored the relationship between economic activity, measured 
-        by GDP per capita, and air pollution, specifically PM2.5 and PM10. Using a new dataset—the WMO SDS-WAS Global 
-        Dust Reanalysis Ensemble spanning 2003 to 2022—I seek to examine whether the patterns observed in their analysis 
-        are consistent and provide an updated analysis using contemporary datasets.
+        In this study, I aim to replicate and extend the findings of Vandenbroucke and Zhu (2017) from their work Measures of Pollution. Their research explored the relationship between economic activity, measured by GDP per capita, and air pollution, specifically PM2.5 and CO2 emissions. Using a new dataset—the WMO SDS-WAS Global Dust Reanalysis Ensemble spanning 2003 to 2022—I seek to examine whether the patterns observed in their study hold true with higher spatial and temporal resolution data. This replication allows for a validation of their findings and provides an updated analysis using contemporary datasets.
     </p>
+    <p>
+        The research investigates the relationship between economic activity, measured by <strong>GDP per capita</strong>, a key indicator of average economic output per person, and <strong>the National Activity Index (CFNAI)</strong>, a composite of 85 economic indicators assessing U.S. economic growth and inflationary pressure. It also analyzes <strong>air pollution levels</strong> through the following variables:
+    </p>
+    <ul>
+        <li>Dust PM2.5: Fine particulate matter (&lt;2.5 µm) from dust sources (e.g., deserts and arid regions), crucial for studying dust's impact on air quality and climate.</li>
+        <li>PM2.5: Total fine particulate matter (&lt;2.5 µm) from all sources, including combustion, natural events, and dust, widely used to assess air quality and public health risks.</li>
+        <li>Dust PM10: Coarse and fine dust particles (&lt;10 µm) originating from natural dust sources, focusing on dust's role in visibility and atmospheric processes.</li>
+        <li>PM10: Total particulate matter (&lt;10 µm) from all sources, encompassing construction, road dust, and natural particles, important for health and environmental studies.</li>
+        <li>Dust Aerosol Optical Depth (AOD): Measures dust particles' scattering and absorption of sunlight, reflecting their transport, climatic effects, and impact on air quality.</li>
+    </ul>
+    <p>
+        <strong>The research aims to answer the following question: How does economic activity influence levels of air pollution, specifically PM2.5 and PM10?</strong>
+    </p>
+    <p>
+        The hypotheses guiding this study are:
+    </p>
+    <ul>
+        <li><strong>Null Hypothesis (H₀):</strong> There is no significant relationship between economic activity and air pollution levels.</li>
+        <li><strong>Alternative Hypothesis (Hₐ):</strong> There is a significant relationship between economic activity and air pollution levels, indicating that changes in economic activities correspond to changes in pollution levels.</li>
+    </ul>
 
+    <!-- Existing links -->
     <a href="environment.yaml" download>Download Environment File</a><br>
     <a href="GDP%20PM2.5%20Project.ipynb" download>Download GDP PM2.5 Project Notebook</a>
 

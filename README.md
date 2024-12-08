@@ -82,7 +82,7 @@ Figure 2 presents the time series of Dust PM2.5, Dust PM10, total PM2.5, and tot
 Formal statistical tests, such as the augmented Dickey–Fuller (ADF) test or autocorrelation function (ACF) analysis, should be applied to avoid spurious regressions. Therefore, the Augmented Dickey–Fuller (ADF) test was conducted to evaluate the stationarity of all variables.
 
 ### The formula for the ADF test is as follows:
-```math
+
 Δy_t = α + γy_{t-1} + \sum_{i=1}^p β_i Δy_{t-1} + ε_t \tag{2}
 ### Where:
 - **α**: The constant term, also known as the intercept.

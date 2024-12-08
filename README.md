@@ -47,12 +47,11 @@ For this study, the ensemble mean is used to create a single dataset, combining 
 - **CFNAI Dataset Path:** `/home/salmadan/CFNAI.csv`
 
 ---
-
 ## Methodology
 
 ### Mathematical Expression
 The regression model used to analyze the relationship between economic activity and air pollution variables can be expressed as:
-```markdown
+
 y_t = β_0 + β_1 x_t + ε_t
 
 Where:
@@ -84,6 +83,7 @@ Formal statistical tests, such as the augmented Dickey–Fuller (ADF) test or au
 ### The formula for the ADF test is as follows:
 
 Δy_t = α + γy_{t-1} + \sum_{i=1}^p β_i Δy_{t-1} + ε_t \tag{2}
+
 ### Where:
 - **α**: The constant term, also known as the intercept.
 - **yₜ₋₁**: The first difference of the time series \( yₜ \).

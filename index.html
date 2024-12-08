@@ -2,10 +2,19 @@
 <html>
 <head>
     <title>CLIM680 Project Sara</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
 </head>
 <body>
-    <h1>View my research document below:</h1>
-    <embed src="research.pdf" type="application/pdf" width="100%" height="600px">
-    <p>If the PDF does not load, <a href="research.pdf" target="_blank">click here to view it</a>.</p>
+    <div id="content"></div>
+    <script>
+        // Fetch the README.md file
+        fetch('README.md')
+            .then(response => response.text())
+            .then(text => {
+                const converter = new showdown.Converter();
+                const html = converter.makeHtml(text);
+                document.getElementById('content').innerHTML = html;
+            });
+    </script>
 </body>
 </html>
